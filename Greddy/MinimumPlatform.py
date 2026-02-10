@@ -15,7 +15,7 @@ class Solution:
                 count += 1
                 i += 1
             else :
-                count -= 1
+                count -= 1 # purani train depart
                 j += 1
             platform = max(platform , count)
         return platform
